@@ -1,0 +1,22 @@
+# Akka patterns
+
+ - The **Master Slave work pulling** pattern
+   - issue:
+     - mailbox message overflow
+       - each actor is able to process one message at a time
+       - and the rest of the messages get enqueued into the mailbox
+       - unbounded mailbox - OOM (out-of-memory issue)
+       - bounded mailbox - dropping message
+       - solution:
+         - delegating tasks/messages to worker actors (children/remote actors)
+         - the actors run either in a separate JVMs or remote machines  
+ - **Ordered termination of actors**
+ - **Shutdown** patterns in Akka
+ - **Scheduling periodic messages** to an actor
+ - **Throttling of messages while sending** them to an actor
+ - **Balancing workload** across actors
+ - The **Aggregator** pattern
+ - The **CountDownLatch** pattern
+ - **Finite-State Machine**
+ - The **Pausable** actor pattern
+ - **Enveloping** actor

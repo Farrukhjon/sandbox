@@ -1,0 +1,13 @@
+syntax = "proto3";
+
+package grpc.protobuf.protos;
+
+import "greeting-messages.proto";
+
+option java_multiple_files = true;
+option java_package = "io.github.farrukhjon.experiment.grpc.protobuf.service";
+
+service Greeter {
+  rpc Greet(GreetingRequest) returns (GreetingResponse){}
+}
+

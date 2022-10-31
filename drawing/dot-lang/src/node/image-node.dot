@@ -1,0 +1,3 @@
+graph G {
+   imgnode[image="img.png" label=""];
+}

@@ -1,0 +1,11 @@
+digraph grid {
+    ratio = "fill"; size = 3;
+
+    1 -> 2 -> 3 -> 4 -> 5 [dir = back];
+
+    { rank = same 1 -> a -> b };
+    { rank = same 2 -> c -> d };
+    { rank = same 3 -> e -> f };
+    { rank = same 4 -> g -> h };
+    { rank = same 5 -> i -> j };
+}

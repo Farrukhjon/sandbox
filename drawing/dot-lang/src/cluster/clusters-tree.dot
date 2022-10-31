@@ -1,0 +1,43 @@
+digraph tree_of_subgraphs {
+    compound=true;
+    graph [nodesep=0.5 ranksep=0.8];
+
+    subgraph cluster_1 {
+        a -> b;
+        b -> a1 [constraint=false];
+        a1 -> b1;
+    }
+    
+    b -> c [ltail=cluster_1 lhead=cluster_2];
+    subgraph cluster_2 {
+        rank="same"
+        c -> d;
+        c -> c1 [constraint=false];
+        c1 -> c2 [constraint=false];
+        c1 -> d1;
+        c2 -> d2
+    }
+    
+    b -> e [ltail=cluster_1 lhead=cluster_3];
+    subgraph cluster_3 {
+        e -> f;
+        e -> f1;
+        e -> f2 [constraint=false];
+        e -> f3;
+    }
+    
+    d -> g [ltail=cluster_2 lhead=cluster_4]; 
+    subgraph cluster_4 {
+        g -> h;
+        h1 -> h2;
+    }
+    
+    d -> i [ltail=cluster_2 lhead=cluster_5]; 
+    subgraph cluster_5 {
+        i -> j;
+        j -> j1;
+        j1 -> j2;
+
+    }
+
+}

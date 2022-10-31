@@ -1,0 +1,39 @@
+digraph alight_clusters {
+    compound = true;
+    rankdir = "LR";
+
+    subgraph cluster_whole_numbers {
+        label = "whole numbers";
+        1 -> 2 -> 3;
+        10 -> 20 -> 30;
+        100 -> 200 -> 300;
+        0 -> 1 -> 10 -> 100;
+    }
+
+    subgraph cluster_letters {
+        label = "letters";
+        A -> B -> C;
+        a -> b -> c;
+    }
+
+    subgraph cluster_symbols {
+        label = "symbols";
+        "@" -> "%" -> "&";
+    }
+
+    subgraph cluster_top {
+        Clusters;
+    }
+
+    Clusters -> 0 [ltail = cluster_top lhead = cluster_whole_numbers];
+    Clusters -> A [ltail = cluster_top lhead = cluster_letters];
+    Clusters -> "@" [ltail = cluster_top lhead = cluster_symbols];
+
+    subgraph cluster_words {
+        label = "words";
+        "Hello" -> "World!";
+    }
+
+    c -> "Hello" [ltail = cluster_letters lhead = cluster_words];
+
+}

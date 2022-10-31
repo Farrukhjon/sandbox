@@ -1,0 +1,27 @@
+digraph alight_clusters {
+    compound = true;
+
+    subgraph cluster_digits {
+        label = "digits";
+        0 -> 1 -> 2
+    }
+
+    subgraph cluster_letters {
+        label = "letters";
+        A -> B -> C
+    }
+
+    subgraph cluster_symbols {
+        label = "symbols";
+        "@" -> "%" -> "&"
+    }
+
+    subgraph cluster_top {
+        Clusters;
+    }
+
+    Clusters -> 0 [ltail = cluster_top lhead = cluster_digits];
+    Clusters -> A [ltail = cluster_top lhead = cluster_letters];
+    Clusters -> "@" [ltail = cluster_top lhead = cluster_symbols];
+
+}

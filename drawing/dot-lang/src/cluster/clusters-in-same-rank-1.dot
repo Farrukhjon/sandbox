@@ -1,0 +1,15 @@
+digraph subgraphs_in_the_same_rank {
+    newrank = true; rank = same;
+    subgraph cluster_1 {
+        a;
+        b;
+        c;
+    }
+    subgraph cluster_2 {
+       d;
+       e;
+    }
+    subgraph cluster_3 {
+       f;
+    }
+}

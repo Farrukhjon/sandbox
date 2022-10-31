@@ -1,0 +1,8 @@
+digraph constraint_demo {
+    subgraph cluster_alphabet {
+        c -> d;
+        a -> b;
+        b -> d [constraint = false]; //the edge is not used in ranking the nodes
+        a -> c [constraint = false]; //the edge is not used in ranking the nodes
+    }
+}

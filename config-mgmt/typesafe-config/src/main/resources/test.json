@@ -1,0 +1,124 @@
+{
+  "awt": {
+    "toolkit": "sun.lwawt.macosx.LWCToolkit"
+  },
+  "env": "prod",
+  "file": {
+    "encoding": "UTF-8",
+    "separator": "/"
+  },
+  "ftp": {
+    "nonProxyHosts": "local|*.local|169.254/16|*.169.254/16"
+  },
+  "gopherProxySet": "false",
+  "http": {
+    "nonProxyHosts": "local|*.local|169.254/16|*.169.254/16"
+  },
+  "java": {
+    "awt": {
+      "graphicsenv": "sun.awt.CGraphicsEnvironment",
+      "printerjob": "sun.lwawt.macosx.CPrinterJob"
+    },
+    "class": {
+      "path": "/Users/Farrukhjon_Sattorov/Projects/experimental/typesafe-config-experiment/target/classes:/Users/Farrukhjon_Sattorov/.m2/repository/com/typesafe/config/1.4.0/config-1.4.0.jar:/Users/Farrukhjon_Sattorov/.m2/repository/ch/qos/logback/logback-classic/1.4.1/logback-classic-1.4.1.jar:/Users/Farrukhjon_Sattorov/.m2/repository/ch/qos/logback/logback-core/1.4.1/logback-core-1.4.1.jar:/Users/Farrukhjon_Sattorov/.m2/repository/org/slf4j/slf4j-api/2.0.1/slf4j-api-2.0.1.jar:/Users/Farrukhjon_Sattorov/.m2/repository/org/jooq/jool/0.9.14/jool-0.9.14.jar",
+      "version": "55.0"
+    },
+    "home": "/Users/Farrukhjon_Sattorov/.sdkman/candidates/java/11.0.2-open",
+    "io": {
+      "tmpdir": "/var/folders/xb/xkg312bn47b5cxpp5s_6sfmh0000gn/T/"
+    },
+    "library": {
+      "path": "/Users/Farrukhjon_Sattorov/Library/Java/Extensions:/Library/Java/Extensions:/Network/Library/Java/Extensions:/System/Library/Java/Extensions:/usr/lib/java:."
+    },
+    "runtime": {
+      "name": "OpenJDK Runtime Environment",
+      "version": "11.0.2+9"
+    },
+    "specification": {
+      "name": "Java Platform API Specification",
+      "vendor": "Oracle Corporation",
+      "version": "11"
+    },
+    "vendor": {
+      "url": {
+        "bug": "http://bugreport.java.com/bugreport/"
+      },
+      "version": "18.9"
+    },
+    "version": "11.0.2",
+    "vm": {
+      "compressedOopsMode": "Zero based",
+      "info": "mixed mode",
+      "name": "OpenJDK 64-Bit Server VM",
+      "specification": {
+        "name": "Java Virtual Machine Specification",
+        "vendor": "Oracle Corporation",
+        "version": "11"
+      },
+      "vendor": "Oracle Corporation",
+      "version": "11.0.2+9"
+    }
+  },
+  "jdk": {
+    "debug": "release"
+  },
+  "line": {
+    "separator": "\n"
+  },
+  "os": {
+    "arch": "x86_64",
+    "name": "Mac OS X",
+    "version": "10.16"
+  },
+  "path": {
+    "separator": ":"
+  },
+  "socksNonProxyHosts": "local|*.local|169.254/16|*.169.254/16",
+  "sun": {
+    "arch": {
+      "data": {
+        "model": "64"
+      }
+    },
+    "boot": {
+      "library": {
+        "path": "/Users/Farrukhjon_Sattorov/.sdkman/candidates/java/11.0.2-open/lib"
+      }
+    },
+    "cpu": {
+      "endian": "little",
+      "isalist": ""
+    },
+    "io": {
+      "unicode": {
+        "encoding": "UnicodeBig"
+      }
+    },
+    "java": {
+      "command": "org.github.farrukhjon.experiment.Configs",
+      "launcher": "SUN_STANDARD"
+    },
+    "jnu": {
+      "encoding": "UTF-8"
+    },
+    "management": {
+      "compiler": "HotSpot 64-Bit Tiered Compilers"
+    },
+    "os": {
+      "patch": {
+        "level": "unknown"
+      }
+    }
+  },
+  "test": {
+    "first_test_item": 1
+  },
+  "user": {
+    "country": "US",
+    "dir": "/Users/Farrukhjon_Sattorov/Projects/experimental/typesafe-config-experiment",
+    "home": "/Users/Farrukhjon_Sattorov",
+    "language": "en",
+    "name": "Farrukhjon_Sattorov",
+    "timezone": "Asia/Tashkent"
+  }
+}

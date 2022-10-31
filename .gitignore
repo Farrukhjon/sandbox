@@ -1,0 +1,8 @@
+target/*
+.idea/*
+*.iml
+
+# for inner projects/subdirs
+**/*.idea/*
+**/target/
+**/*.iml

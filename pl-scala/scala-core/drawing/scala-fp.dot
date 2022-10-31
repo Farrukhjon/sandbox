@@ -1,0 +1,45 @@
+digraph scala_functional_concepts {
+	rankdir = "LR";
+	compound = true;
+	label  = <<B>Functional Concepts and Facilities - Every function is a value</B>>;
+	node [ shape = circle color = blue style = filled fillcolor = white margin = 0.05];
+
+	type_alias [ label = "Type Alias" ]
+	anon_fun [ label = "Anonymous \n function" ];
+	underscore_anon_fun [ label = "underscore" ];
+	underscore_anon_fun_note [ shape = note dir = back label = "is positionally matched arg" ];
+	block_anon_fun [ label = "block style" ];
+	block_anon_fun_note [ shape = note dir = back label = "returns last expression" ];
+	pipeline_anon_fun [ label = "pipeline style \n (or parens too)" ];
+
+	currying [ label = "Currying" ];	
+	multi_param_lst [ label = "Multiple \n Parameter Lists" ];
+	currying_def [ shape = note label = "is the process of converting \l a function with multiple arguments \l into a sequence of functions \l that take one argument" ];
+	currying_1 [ label = " " ];
+	currying_2 [ label = " " ];
+	currying_3 [ label = " " ];
+
+	for_compr [ label = "For \n Comprehension" ];
+
+	pat_match [ label = "Pattern \n Matching" ]	
+	
+	scala -> FP;
+	FP -> {
+	    multi_param_lst;
+	    type_alias;
+	    anon_fun;
+	    currying;
+	    for_compr;
+	    pat_match;
+	}
+
+	currying -> currying_def [ dir = back ];
+	anon_fun -> underscore_anon_fun;
+	underscore_anon_fun -> underscore_anon_fun_note [ dir = back ];
+	anon_fun -> block_anon_fun;
+	block_anon_fun -> block_anon_fun_note [ dir = back ];
+	anon_fun -> pipeline_anon_fun;
+
+}
+
+

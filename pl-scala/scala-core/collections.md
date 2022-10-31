@@ -1,0 +1,33 @@
+Iterable
+  - Seq
+    - IndexedSeq
+      - ArraySeq
+      - Vector
+      - ArrayDeque (mutable)
+      - Queue (mutable)
+      - Stack (mutable)
+      - Range
+      - NumericRange
+    - LinearSeq
+      - List
+      - LazyList
+      - Queue (immutable)
+    - Buffer
+      - ListBuffer
+      - ArrayBuffer
+  - Set
+    - SortedSet
+      - TreeSet
+    - HashSet (mutable)
+    - LinkedHashSet
+    - HashSet (immutable)
+    - BitSet
+    - EmptySet, Set1, Set2, Set3, Set4
+  - Map
+    - SortedMap
+      - TreeMap
+    - HashMap (mutable)
+    - LinkedHashMap (mutable)
+    - HashMap (immutable)
+    - VectorMap (immutable)
+    - EmptyMap, Map1, Map2, Map3, Map4

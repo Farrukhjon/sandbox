@@ -1,0 +1,14 @@
+digraph scala_maps_and_tuples {
+	rankdir = "LR";
+	compound = true;
+	node [ shape = circle color = blue style = filled fillcolor = white margin = 0 ]
+
+	subgraph cluster_scala_maps {
+		label = "Maps";
+		style = rounded; bgcolor = lightblue;	
+		"scala" -> "Maps";
+	}
+
+}
+
+

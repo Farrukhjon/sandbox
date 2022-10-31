@@ -1,0 +1,153 @@
+digraph scala_oop_concepts {
+	label  = <<B>In Scala OOP - Every value is an object </B>>; labelloc=t;
+	rankdir = "LR"; compound=true;
+    graph [nodesep = 0.5 ranksep = 0.8];
+	node [ shape = circle color = blue style = filled fillcolor = white margin = 0.05];
+
+	note_object_1 [ shape = note label = "singleton objects are declared" ];
+	note_object_2 [ shape = note label = "definition of an object looks like a class, \l but uses the keyword object" ];
+	note_object_3 [ shape = note label = "creating utility methods is common use case" ];
+
+	note_companion_object_1 [ shape = note label = "is an object that’s declared \l in the same file as a class" ];
+	note_companion_object_2 [ shape = note label = "has the same name as the class" ];
+	note_companion_object_3 [ shape = note label = "companion object and its class can access \l each other’s private members" ];
+	note_companion_object_4 [ shape = note label = "apply method lets you create new instances \l of a class without using the new keyword" ];
+	note_companion_object_5 [ shape = note label = "unapply method lets you de-construct an instance \l of a class into its individual components" ];
+	note_companion_object_6 [ shape = note label = "factory methods providing is a use case" ];
+
+	note_class_1 [ shape = note label = "parameters in a class constructor \l automatically creates fields" ];
+	note_class_2 [ shape = note label = "val makes fields read-only" ];
+
+	note_case_object_1 [ shape = note label = "is like an object, but just like a case class \l has more features than a regular class" ];
+	note_case_object_2 [ shape = note label = "has more features than a regular object" ];
+	note_case_object_3 [ shape = note label = "serializable" ];
+	note_case_object_4 [ shape = note label = "has a default hashCode \l toString" ];
+	note_case_object_5 [ shape = note label = "creating enumerations use case" ];
+	note_case_object_6 [ shape = note label = "objects as messages use case" ];
+	note_case_object_7 [ shape = note label = "can’t have constructor parameters" ];
+
+	note_case_class_1 [ shape = note label = "has all of the functionality \l of a regular class and more" ];
+	note_case_class_2 [ shape = note label = "constructor parameters are \l public val fields by default" ];
+	note_case_class_3 [ shape = note label = "accessor methods are generated \l for each parameter" ];
+	note_case_class_4 [ shape = note label = "an apply method is created \l no need to use the new keyword" ];
+	note_case_class_5 [ shape = note label = "an unapply method is generated" ];
+	note_case_class_6 [ shape = note label = "a copy method is generated" ];
+	note_case_class_7 [ shape = note label = "equals, hashCode and toString \l methods are generated" ];
+
+	note_trait_1 [ shape = note label = "is used to share \l interfaces and \l fields between classes" ];
+	note_trait_2 [ shape = note label = "is similar to Java 8's interface" ];
+	note_trait_3 [ shape = note label = "classes and objects can extend traits" ];
+	note_trait_4 [ shape = note label = "cannot be instantiated, \l therefore have no parameters" ];
+	note_trait_5 [ shape = note label = "useful as generic types, \l and with abstract methods" ];
+	note_trait_6 [ shape = note label = "can also have default implementations" ];
+	note_trait_7 [ shape = note label = "extend traits with the extends keyword \l and override an implementation \l with the override keyword" ];
+
+	note_implicit_class_1 [shape = note label = "makes the class’s primary constructor \l available for implicit conversions \l when the class is in scope" ];
+	note_implicit_class_2 [shape = note label = "must be defined \l inside another trait/class/object" ];
+	note_implicit_class_3 [shape = note label = "may only take \l one non-implicit argument \l in their constructor" ];
+	note_implicit_class_4 [shape = note label = "implicit def introduced by implicit class \l must not be ambiguous \l with respect to other term members" ];
+
+	note_abstract_class_1 [ shape = note label = "prevents instantiation of the class" ];
+
+    subgraph cluster_scala_oop {
+        style = rounded; bgcolor = lightblue;
+        scala -> OOP;
+    }
+    OOP -> {
+        obj [label = "object"];
+        comp_obj [label="companion object"];
+        clz [label = "class"];
+        case_obj [label="case object"];
+        case_clz [label = "case class"];
+        abs_clz [label = "abstract class"];
+        trait;
+        impl_clz [label="implicit class"];
+    }
+    obj-> comp_obj;
+    clz -> comp_obj;
+
+	subgraph cluster_object_notes {
+		style = rounded; bgcolor = lightblue;
+		obj -> {
+		    note_object_1;
+		    note_object_2;
+		    note_object_3;
+		}
+	}
+
+	subgraph cluster_companion_object_notes {
+		style = rounded; bgcolor = lightblue;
+		comp_obj -> {
+		    note_companion_object_1;
+		    note_companion_object_2;
+		    note_companion_object_3;
+		    note_companion_object_4;
+		    note_companion_object_5;
+		    note_companion_object_6;
+		}
+	}
+
+	subgraph cluster_class_notes {
+		style = rounded; bgcolor = lightblue;
+		clz -> {
+		    note_class_1;
+		    note_class_2;
+	    }
+	}
+
+	subgraph cluster_case_object_notes {
+		style = rounded; bgcolor = lightblue;
+		case_obj -> {
+		    note_case_object_1;
+		    note_case_object_2;
+		    note_case_object_3;
+		    note_case_object_4;
+		    note_case_object_5;
+		    note_case_object_6;
+		    note_case_object_7;
+	    }
+	}
+
+	subgraph cluster_case_class_notes {
+		style = rounded; bgcolor = lightblue;
+		case_clz -> {
+		    note_case_class_1;
+		    note_case_class_1;
+		    note_case_class_2;
+		    note_case_class_3;
+		    note_case_class_4;
+		    note_case_class_5;
+		    note_case_class_6;
+		    note_case_class_7;
+	    }
+	}
+
+	subgraph cluster_abstract_class_notes {
+		style = rounded; bgcolor = lightblue;
+		abs_clz -> note_abstract_class_1;
+	}
+
+	subgraph cluster_trait_notes {
+		style = rounded; bgcolor = lightblue;
+		trait -> {
+		    note_trait_1;
+		    note_trait_2;
+		    note_trait_3;
+		    note_trait_4;
+		    note_trait_5;
+		    note_trait_6;
+		    note_trait_7;
+	    }
+	}
+
+	subgraph cluster_implicit_class_notes {
+		style = rounded; bgcolor = lightblue;
+		impl_clz -> {
+		    note_implicit_class_1;
+		    note_implicit_class_2;
+		    note_implicit_class_3;
+		    note_implicit_class_4;
+	    }
+	}
+
+}

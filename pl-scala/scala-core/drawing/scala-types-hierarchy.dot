@@ -1,0 +1,30 @@
+digraph scala_type_hierarchy {
+	rankdir = "BT";
+	compound = true;
+	label  = <<B>Type Hierarchy in Scala</B>>;
+	node [ shape = circle color = blue style = filled fillcolor = white margin = 0 ];
+		
+	AnyVal -> Any;
+	AnyRef -> Any;
+
+	Null -> {
+	    List -> AnyRef;
+	    Option -> AnyRef;
+	    YourClass -> AnyRef;
+	}
+
+	Nothing -> {
+	    Null;
+	    Double -> AnyVal;
+	    Float -> AnyVal;
+	    Long -> AnyVal;
+	    Int -> AnyVal;
+	    Short -> AnyVal;
+	    Byte -> AnyVal;
+	    Unit -> AnyVal;
+	    Boolean -> AnyVal;
+	    Char -> AnyVal;
+    }
+}
+
+

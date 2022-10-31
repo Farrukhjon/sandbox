@@ -1,0 +1,40 @@
+digraph scala_generics_and_variance {
+	rankdir = "LR";
+	compound = true;
+	label  = <<B>Generics and Variance</B>>;
+	node [ shape = circle color = blue style = filled fillcolor = white margin = 0.05];
+
+	invariant_param_type_ex [ label = "trait SomeTypeName[T]" ];
+	covariant_param_type_ex [ label = "trait SomeTypeName[+T]" ];
+	contravariant_param_type_ex [ label = "trait SomeTypeName[-T]" ];
+	
+	variance_rationale_1 [ shape = note label = "to control how type parameters \n behave with regards to subtyping" ]
+	variance_rationale_2 [ shape = note label = "to control get/put desired subtype from a generic 'box'" ]
+	
+	"scala" -> "Generics";
+	"Generics" -> {
+	    "class";
+	    "trait";
+    }
+
+	"variance" -> "rationale";
+	"rationale" -> {
+	    variance_rationale_1;
+	    variance_rationale_2;
+	}
+	"variance" -> "modes";
+	"modes" -> {
+	    "invariant" -> "";
+	    "covariant" -> "producer" -> "subtyping is valid for return type";
+	    "contravariant" -> "consumer" -> "subtyping is valid for argument type";
+	}
+	"invariant" -> {
+	    invariant_param_type_ex [ label = "types are no in subtyping relationship to each other" ];
+	    "Type Parameter [T]" -> "is use as argument \n and return type of a method \ of a Parametrized Type ";
+	}
+	"covariant" -> covariant_param_type_ex;
+	"contravariant" -> contravariant_param_type_ex;
+}
+
+
+

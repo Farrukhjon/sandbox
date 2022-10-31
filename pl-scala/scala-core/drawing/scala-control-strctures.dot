@@ -1,0 +1,19 @@
+digraph control_structures {
+		
+    "Control Structure" -> {
+        "if/then/else" [ label = "if is an expression and can return result" ];
+        "for loop";
+        "try/catch/finally";
+    }
+
+    "Expression" -> {
+        "match expression";
+        "for expression";
+    }
+
+    "for expression" -> {
+        "for";
+        "foreach" [ label = "a method from collections" ];
+    }
+
+}

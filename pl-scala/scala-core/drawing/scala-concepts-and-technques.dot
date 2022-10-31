@@ -1,0 +1,28 @@
+digraph scala_concepts {
+	rankdir = "LR";
+	compound = true;
+	node [ shape = circle color = blue style = filled fillcolor = white margin = 0 ]
+
+	subgraph cluster_scala_is {
+		label = "Scala Is";
+		style = rounded; bgcolor = lightblue;	
+		"scala" -> "IS";
+        "IS" -> {
+            "OOP"
+            "Functional";
+            "Statically \n Typed";
+        }
+		"OOP" -> {
+		    "an Object" [ label = "every value is" ];
+		    "Types \n Behaviors" -> "Classes" [ label = "is described by" ];
+		    "Types \n Behaviors" -> "Traits" [ label = "is described by" ];
+		}
+		"Classes" -> {
+		    "Subclassing" [ label = "can be \n extended by" ];
+		    "Mixin \n (composition)" [ label = "can be extended by" ];
+		}
+	}
+
+}
+
+

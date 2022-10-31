@@ -1,0 +1,63 @@
+digraph reserved_words {
+	rankdir = "LR";
+	node [ shape = circle color = blue style = filled fillcolor = white margin = 0 ]
+    graph [nodesep = 0.5 ranksep = 0.8];
+
+	"scala" -> "Reserved \n Words";
+	"Reserved \n Words" ->  {
+	    "abstract";
+	    "case";
+	    "catch";
+	    "class";
+	    "def";
+	    "do";
+	    "else";
+	    "extends";
+	    "false";
+	    "final";
+	    "finally";
+	    "for";
+	    "forSome";
+	    "if";
+	    "implicit";
+	    "import";
+	    "lazy";
+	    "match";
+	    "new";
+	    "null";
+	    "object";
+	    "override";
+	    "package";
+	    "private";
+	    "protected";
+	    "requires";
+	    "return";
+	    "sealed";
+	    "super";
+	    "this";
+	    "throw";
+	    "trait";
+	    "try";
+	    "true";
+	    "type";
+	    "val";
+	    "var";
+	    "while";
+	    "with";
+	    "yield";
+	    "_";
+	    ":";
+	    "=";
+	    "=>";
+	    "<-";
+	    "->";
+	    "<:";
+	    "<%";
+	    ">:";
+	    "#";
+	    "@";
+	}
+
+}
+
+

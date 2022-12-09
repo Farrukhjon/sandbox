@@ -1,5 +1,13 @@
 # Azure App Service
 
+## Literature and Resources
+
+|               | Create | Build | Deploy | Manage | Supported <br/>Languages & Runtimes                    |
+|---------------|--------|-------|--------|--------|--------------------------------------------------------|
+| `Web apps`    | Y      | Y     | Y      | Y      | .NET<br/>Java<br/>Node.js<br/>PHP <br/>Python<br/>Ruby |
+| `Mobile apps` | Y      | Y     | Y      | Y      | .NET<br/>Java<br/>Node.js<br/>PHP <br/>Python<br/>Ruby |
+| `API apps`    | Y      | Y     | Y      | Y      | .NET<br/>Java<br/>Node.js<br/>PHP <br/>Python<br/>Ruby |   
+
 ## Plan (What to learn)
 
 ### Provision App Service
@@ -20,7 +28,7 @@
 
 ### Setup Autoscaling
 
-### Setup deployment slots
+### Setup Deployment Slots
 
 ### Setup Traffic Manager
 
@@ -28,24 +36,30 @@
 
 ## What is Azure App Service?
 
+### Azure App Service is
+
+- a PaaS service
 - HTTP-based service
-- Hosts wep apps, REST APIs, and Mobile backends
+
+### Azure App Service does
+
+- Hosts Web apps, API apps, and Mobile App backends
 - Hosts Docker containers
-- Support Windows or Linux workloads
+- Supports Windows or Linux workloads
 - Templates available on Azure Marketplace
 - Visual Studio and Azure DevOps Integration
 - Languages, Frameworks and Runtimes
-  - APS.NET
-  - APS.NET COre
-  - Java
-  - Node.js
-  - PHP
-  - Python
-  - Ruby
+    - APS.NET
+    - APS.NET COre
+    - Java
+    - Node.js
+    - PHP
+    - Python
+    - Ruby
 - Scalability and High Availability
-  - 99.95% update SLA
-  - In all 54 Azure Regions
-  - Scal up to 100 instances
+    - 99.95% update SLA
+    - In all 54 Azure Regions
+    - Scal up to 100 instances
 - Isolated App Service in a VNet
 - Create IP restrictions
 - Autoscaling

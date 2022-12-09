@@ -2,6 +2,50 @@
 
 - Azure Virtual Machines
 - Azure App Service
+    - Azure Web Apps
+        - Runs on top of an Azure App Service plan
+        - HTTP-based service
+        - Hosts Web Apps or REST APIs
+        - Can Host Docker containers
+        - Supports Linux or Windows workloads
+        - Templates available on the Azure Marketplace
+        - Doesn't provide remote desktop access ot the VM instances
+        - Languages/Runtimes: ASP.NET/ASP.NET Core, Java Node.js, PHP and Ruby
+    - API Apps
+    - Mobile Apps
+        - Authentication and Authorization
+        - Data access
+        - Offline sync
+        - Push notification
+        - Client SDK
+    - Logic Apps
+        - automate Business Process
+        - scheduled
+        - no-code experience
+        - serverless billing model
+        - BI dashboard
+        - Key terms
+            - Workflow
+            - Connectors
+            - Triggers
+            - Actions
+            - Enterprise Integration Pack
+    - Azure Function
+        - is a serverless event-based compute
+        - extends Asure App Service platform
+        - no infrastructure management
+        - autoscale based on needed workload
+        - no wasted resourced - pay for what is used (consumption mode)
+        - supported multiple languages: C#, Java, Python and so on
+        - hosting options: App Service plan or Consumption mode
+        - stateless and stateful functions (Durable Function)
+        - function App Templates
+            - EventHubTrigger
+            - Generic webhook
+            - GitHub webhook
+            - HttpTrigger
+            - QueueTrigger
+            - Blan
 - Azure Container Instances (ACI)
 - Azure Kubernetes Service (AKS)
 - Windows Virtual Desktop

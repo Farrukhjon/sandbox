@@ -28,7 +28,7 @@
 - [Cloud Computing](https://en.wikipedia.org/wiki/Cloud_computing)
 - [Cloud Computing Comparison](https://en.wikipedia.org/wiki/Cloud-computing_comparison)
 
-## Solutions (The Cloud Pyramid)
+## Cloud Service Types (Solutions)
 
 ### On-Premises (On-Site)
 

@@ -32,7 +32,7 @@
         - `web apps`
         - `databases`
 - What is a `resource group`?
-    - `is a container`
+    - `is a logical container`
     - it `holds related resources` for an Azure solution
     - can include `all the resources for the solution`
     - or only those resources that you want to `manage as a group`

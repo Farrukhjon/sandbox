@@ -1,0 +1,30 @@
+<!DOCTYPE html>
+<html lang="en">
+<body>
+<script type="module" src="node_modules/three/build/three.module.js">
+
+    import * as THREE from 'three';
+
+    let scene, camera, renderer;
+
+    function init() {
+        scene = new THREE.Scene();
+        camera = new THREE.PerspectiveCamera();
+        renderer = new THREE.WebGLRenderer();
+
+        // create a cube and add to scene
+        var cubeGeometry = new THREE.BoxGeometry(10 * Math.random(), 10 * Math.random(), 10 * Math.random());
+        var cubeMaterial = new THREE.MeshNormalMaterial();
+        var cubeMesh = new THREE.Mesh(cubeGeometry, cubeMaterial);
+        scene.add(cubeMesh);
+
+        document.body.appendChild(renderer.domElement);
+
+        renderer.render(scene, camera)
+    }
+
+    window.onload = init;
+
+</script>
+</body>
+</html>

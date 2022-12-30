@@ -12,6 +12,7 @@
 ## Styles and Structures
 
 ### Monolithic Style
+
 - Modular Monolith
 - Microkernel
 
@@ -21,7 +22,8 @@
 
 #### Pros and Cons of Distributed architecture
 
-### Architecture styles include
+### Architecture styles
+
 - **Layered** Architecture
 - **Microkernel** Architecture
 - **Event-Driven** Architecture

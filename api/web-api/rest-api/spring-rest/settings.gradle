@@ -1,0 +1,3 @@
+include ':client', ':service'
+
+rootProject.name = 'spring-rest'

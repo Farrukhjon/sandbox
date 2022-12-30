@@ -1,0 +1,18 @@
+apply plugin: 'java'
+
+allprojects {
+	
+	task printRootProjectName {
+		println "The root dir name is ${rootDir}"
+	}
+
+}
+subprojects{
+	//specification to all subprojects
+	apply plugin: 'java'
+	repositories {
+		mavenCentral()
+	}
+	
+}
+

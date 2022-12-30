@@ -1,0 +1,8 @@
+include ':money-transfers-rest-api',
+        ':spring-hateoas',
+        ':spring-media-data-rest',
+        ':spring-rest',
+        ':spring-rest-by-jersey',
+        ':spring-rest-docs',
+
+rootProject.name = 'rest-api'

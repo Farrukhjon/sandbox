@@ -12,7 +12,7 @@
 | [How to Write an Open Source JavaScript Library](https://github.com/sarbbottam/write-an-open-source-js-lib)                         | A comprehensive guide through a set of steps to publish a JavaScript open source library.                                                                           |
 | [JavaScript Tutorials](https://hackr.io/tutorials/learn-javascript)                                                                 | Learn Javascript online from a diverse range of user ranked online tutorials.                                                                                       |
 | [Functional-Light JavaScript](https://github.com/getify/Functional-Light-JS)                                                        | Pragmatic, balanced FP in JavaScript.                                                                                                                               |
-| [Clean Code JavaScript](Clean Code JavaScript)                                                                                      | Clean Code concepts adapted for JavaScript.                                                                                                                         |
+| [Clean Code JavaScript](https://github.com/ryanmcdermott/clean-code-javascript)                                                     | Clean Code concepts adapted for JavaScript.                                                                                                                         |
 | [Modern JavaScript for the Impatient](https://learning.oreilly.com/library/view/modern-javascript-for/9780136502166/)               | Exploit the Power of Modern JavaScript and Avoid the Pitfalls. <br/> Bestselling programming author Cay S. Horstmann.                                               |
 | [JavaScript Tutorial](https://www.w3schools.com/js/default.asp)                                                                     | JavaScript tutorial by w3schools                                                                                                                                    |
 | [JavaScript(MDN)](https://developer.mozilla.org/en-US/docs/Web/JavaScript)                                                          |                                                                                                                                                                     |
@@ -26,6 +26,7 @@
 | [Comparison Of Browser Engines](https://en.wikipedia.org/wiki/Comparison_of_browser_engines)                                        |                                                                                                                                                                     |
 | [Awesome JavaScript](https://github.com/sorrycc/awesome-javascript)                                                                 | A collection of awesome browser-side JavaScript libraries, resources and shiny things.                                                                              |
 | [JavaScript: The Definitive Guide, 7th Edition](https://learning.oreilly.com/library/view/javascript-the-definitive/9781491952016/) | This book covers the JavaScript language and the JavaScript APIs implemented by web browsers and by Node.                                                           |
+| [The Modern JavaScript Tutorial](https://javascript.info/)                                                                          | From the basics to advanced topics with simple, but detailed explanations.                                                                                          |
 
 ## What's JavaScript?
 
@@ -49,8 +50,8 @@
 
 ### Objects and Object Literal
 
- - object
- - object literal
+- object
+- object literal
 
 - Arrays
 - JSON

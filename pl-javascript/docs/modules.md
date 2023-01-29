@@ -17,6 +17,19 @@ private implementations, but module for programming at larger scales.
 A module can make certain classes and functions available, while hiding others, so that the module’s evolution can be
 controlled.
 
+## Brief features of modules in ES6
+
+- Modules are singleton. They will be `loaded and executed only once`.
+- Modules can use `import` and `export`.
+- Modules are always executed in `strict mode`.
+- All objects (class, const, function, let, or var) are `private` unless explicitly exported.
+- The value of `this` is undefined at the outer scope (not window).
+- Modules are `loaded asynchronously`.
+- Modules are `loaded using CORS` (see Access-Control-Allow-Origin: *).
+- Modules don't send cookies and authentication info by default. (see crossorigin="use-credentials").
+- Imports are resolved `statically` at load-time rather than dynamically at runtime.
+- HTML comments are not allowed.
+
 A module `provides` features (called the `exported`/`imported` features):
 
 - classes
@@ -112,7 +125,7 @@ import(`./plugins/${action}.mjs`)
 
 The dynamic import statement loads the module `asynchronously`:
 
-```js
+```
 import(`./plugins/${action}.mjs`)
     .then(module => {
         module.default()

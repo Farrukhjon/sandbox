@@ -40,3 +40,9 @@ console.log(harry === harry3) // false — different objects
 
 console.log('null is equal to undefined but not identical') // because they are loosely equal
 console.log('undefined == null:', undefined == null) // true
+
+console.log('undefined == false:', undefined == false) // false
+console.log('null == false:', null == false) // false
+
+console.log('!undefined:', !undefined) // true
+console.log('!null:', !null) // true

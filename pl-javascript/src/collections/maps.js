@@ -23,7 +23,7 @@ console.log('map:', map) // Map(3) { 'Mon' => 0, 'Tue' => 1, 'Wed' => 2 }
 
 console.log('// Removing an entry')
 let result = map.delete(key) // Returns true if the key was present, false otherwise
-console.log('result:', result) 
+console.log('result:', result)
 console.log('map:', map) // Map(2) { 'Tue' => 1, 'Wed' => 2 }
 
 console.log('// Testing whether a key is present')
@@ -32,7 +32,7 @@ console.log('result:', result) // false
 
 console.log('// Retrieving a key’s value')
 value = map.get(key) // Returns undefined if the key is not present
-console.log('value:', value) 
+console.log('value:', value)
 
 console.log('// Iterating over the entries')
 for (const [key, value] of map) {
@@ -57,3 +57,31 @@ key2 = new Date('1970-01-01T00:00:00.000Z')
 map.set(key1, 'Hello')
 map.set(key2, 'Epoch') // Now map has two entries
 console.log('map:', map) // Map(2) { 1970-01-01T00:00:00.000Z => 'Hello', 1970-01-01T00:00:00.000Z => 'Epoch' }
+
+const map1 = new Map([
+    ['num1', 1],
+    ['num2', 2],
+    ['num3', 3]
+]);
+
+const predicate = ([_key, value]) => { return value > 1};
+const negatePredicate = ([_key, value]) => {return ! predicate([key, value])}
+const filtered = new Map(Array.from(map1).filter(predicate));
+
+const negatedFiltered = new Map(Array.from(map1).filter(negatePredicate));
+
+// 👇️ {'num2' => 2, 'num3' => 3}
+console.log(filtered);
+console.log(negatedFiltered);
+
+// create array (of arrays) from a map
+const weekDaysArrayOfArray = Array.from(weekdays)
+    .filter(([key,]) => !["Sat", "Sun"].includes(key));
+weekDaysArrayOfArray
+    .map(([key,]) => {
+        return key
+    })
+    .forEach(item => {
+        console.log(item);
+    });
+console.log(weekDaysArrayOfArray);

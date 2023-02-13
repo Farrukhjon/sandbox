@@ -24,7 +24,7 @@ console.log('greeting:', greeting) // <div>Hello</div> <div>Bermuda</div>
 const html = (fragments, ...values) => { // See section 6.4
   const escapeHTML = str => [...str].map(c => c === '<' ? '&lt;'
     : c === '&' ? '&amp;' : c).join('')
-  
+
   let result = fragments[0]
   for (let i = 0; i < values.length; i++) {
     result += escapeHTML(values[i])
@@ -37,3 +37,7 @@ const html = (fragments, ...values) => { // See section 6.4
 destination = 'St. Kitts & Nevis'
 let message = html`<div>Hello, ${destination}</div>`
 console.log('message:', message) // <div>Hello, St. Kitts &amp; Nevis</div>
+
+const aNumberStr = "24";
+const result = `${Number(aNumberStr) + Number(12)}_${12}`
+console.log(result)

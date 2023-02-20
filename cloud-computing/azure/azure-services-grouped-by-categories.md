@@ -1,0 +1,212 @@
+# Azure Services Grouped by Categories
+
+## Literature and Resources
+
+## Categories
+
+- General
+    - All resources
+    - Cost Management + Billing
+    - Free services
+    - Help + support
+    - Management groups
+    - Marketplace
+    - Preview features
+    - Quickstart Center
+    - Reservations
+    - Resource Explorer
+    - Resource groups
+    - Service Health
+    - Shared dashboards
+    - Subscriptions
+    - Tags
+    - Templates
+    - What's new
+- Compute
+    - App Services
+    - Application groups
+    - Availability sets
+    - Azure Spring Apps
+    - Batch accounts
+    - Citrix Virtual Apps Essentials
+    - Citrix Virtual Desktops Essentials
+    - Cloud services (classic)
+    - Container instances
+    - Disks (classic)
+    - Function App
+    - Host groups
+    - Hosts
+    - Kubernetes services
+    - Maintenance Configurations
+    - OS images (classic)
+    - Proximity placement groups
+    - SAP HANA on Azure
+    - Service Fabric clusters
+    - Virtual machine scale sets
+    - Virtual machines
+    - Virtual machines (classic)
+    - VM images (classic)
+    - Workspaces
+- Networking
+    - Application gateways
+    - Application security groups
+    - Azure Synapse Analytics (private link hubs)
+    - Bastions
+    - Connections
+    - DDoS protection plans
+    - DNS zones
+    - Firewall Manager
+    - Firewall Policies
+    - Firewalls
+    - Front Door and CDN profiles
+    - IP Groups
+    - Load balancers
+    - Local network gateways
+    - NAT gateways
+    - Network interfaces
+    - Network security groups
+    - Network security groups (classic)
+    - Network Watcher
+    - Private DNS zones
+    - Private Link
+    - Public IP addresses
+    - Public IP Prefixes
+    - Reserved IP addresses (classic)
+    - Route Servers
+    - Route tables
+    - Service endpoint policies
+    - Traffic Manager profiles
+    - Virtual network gateways
+    - Virtual networks
+    - Virtual networks (classic)
+    - Virtual WANs
+    - Web Application Firewall policies (WAF)
+- Storage
+    - Azure Data Box
+    - Azure Data Box Gateway
+    - Azure NetApp Files
+    - Azure Stack Edge
+    - Azure Stack Edge / Data Box Gateway
+    - Data Lake Storage Gen1
+    - Data Share Invitations
+    - Data Shares
+    - HPC caches
+    - Recovery Services vaults
+    - Storage accounts
+    - Storage accounts (classic)
+    - Storage Sync Services
+    - StorSimple Data Managers
+    - StorSimple Device Managers
+- Web
+    - API Connections
+    - API Management services
+    - App Service Certificates
+    - App Service Domains
+    - App Service Environments
+    - App Service plans
+    - App Services
+    - Azure Spring Apps
+    - Cognitive Search
+    - Front Door and CDN profiles
+    - Media Services
+    - Notification Hub Namespaces
+    - Notification Hubs
+    - Power Platform
+    - SignalR
+    - Static Web Apps
+- Mobile
+    - App Services
+    - Notification Hubs
+    - Power Platform
+- Containers
+    - App Services
+    - Azure Red Hat OpenShift
+    - Batch accounts
+    - Container instances
+    - Container registries
+    - Kubernetes services
+    - Service Fabric clusters
+- Databases
+    - Azure Cache for Redis
+    - Azure Cosmos DB
+    - Azure Cosmos DB for MongoDB
+    - Azure Database for MariaDB servers
+    - Azure Database for MySQL servers
+    - Azure Database for PostgreSQL servers
+    - Azure Database Migration Services
+    - Azure SQL
+    - Azure Synapse Analytics
+    - Data factories
+    - Dedicated SQL pools (formerly SQL DW)
+    - Elastic Job agents
+    - Managed databases
+    - SQL databases
+    - SQL elastic pools
+    - SQL managed instances
+    - SQL Server stretch databases
+    - SQL servers
+    - SQL virtual machines
+    - Virtual clusters
+- Analytics
+    - Analysis Services
+    - Azure Data Explorer Clusters
+    - Azure Databricks
+    - Azure Synapse Analytics
+    - Azure Synapse Analytics (private link hubs)
+    - Data factories
+    - Data Lake Analytics
+    - Data Lake Storage Gen1
+    - Event Hubs
+    - Event Hubs Clusters
+    - HDInsight clusters
+    - Log Analytics workspaces
+    - Power BI Embedded
+    - Power Platform
+    - Stream Analytics jobs
+- Security
+    - Application security groups
+    - Azure Active Directory
+    - Azure AD Authentication methods
+    - Azure AD Identity Protection
+    - Azure AD Identity Secure Score
+    - Azure AD Named locations
+    - Azure AD Password protection
+    - Azure AD Privileged Identity Management
+    - Azure AD Risk detections
+    - Azure AD Risky sign-ins
+    - Azure AD Risky users
+    - Azure AD Security
+    - Azure Information Protection
+    - Azure Synapse Analytics (private link hubs)
+    - Extended Security Updates
+    - Key vaults
+    - Microsoft Defender EASM
+    - Microsoft Defender for Cloud
+    - Microsoft Defender for IoT
+    - Microsoft Sentinel
+    - Multifactor authentication
+    - ScanX Management
+    - User settings
+- Monitor
+    - Activity log
+    - Application Insights
+    - Autoscale
+    - Azure Workbooks
+    - Change Analysis
+    - Diagnostic settings
+    - Log Analytics workspaces
+    - Metrics
+    - Monitor
+    - Network Watcher
+- DevOps
+    - API Connections
+    - API Management services
+    - Application Insights
+    - Azure DevOps organizations
+    - Change Analysis
+    - DevOps Starter
+    - DevTest Labs
+    - Lab accounts
+- AI & Machine Learning
+- Internet Of Things
+- Others

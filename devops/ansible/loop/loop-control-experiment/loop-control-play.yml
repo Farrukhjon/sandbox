@@ -1,0 +1,14 @@
+---
+- name: Loop Control Demo
+  hosts: 127.0.0.1
+  tasks:
+    - name: Loop control task
+      debug:
+        msg: "{{ renamed_item }}"
+      loop:
+        - "one"
+        - "two"
+        - "three"
+      loop_control:
+        loop_var: renamed_item
+...        

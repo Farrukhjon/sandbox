@@ -1,0 +1,16 @@
+- name: Error handling with Block and Rescue
+  block:
+  - name: Print some message
+    debug: msg="Hello world!"
+  - name: Force a failure
+    fail:
+      msg: "Just failing task"
+    register: failed_task_result
+  rescue:
+  - name: Handle failed tasks
+    debug:
+      var: failed_task_result
+- name: Print some message 2
+  debug: msg="This task has run after a rescuing a failed task"
+...
+

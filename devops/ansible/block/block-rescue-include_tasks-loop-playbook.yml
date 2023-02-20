@@ -1,0 +1,14 @@
+---
+- hosts: 127.0.0.1
+  gather_facts: no
+  connection: local
+  tasks:
+    - name: Error handling with Block and Rescue import_tasks and loop
+      include_tasks: print-loop-item-with-failed-tasks.yml  
+      loop:
+        - "1"
+        - "2"
+        - "3"
+        
+...
+

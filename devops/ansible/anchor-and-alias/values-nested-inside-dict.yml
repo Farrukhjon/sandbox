@@ -1,0 +1,15 @@
+---
+- name: Using values nested inside dictionary
+  hosts: localhost
+  gather_facts: no
+  vars:
+    webapp:
+        version: &my_version 1.0
+        custom_name:
+            - "ToDo_App"
+            - *my_version
+  tasks:
+  - name: Using Anchor value
+    ansible.builtin.debug:
+        msg: My app is called "{{ webapp.custom_name | join('-') }}".
+

@@ -1,0 +1,13 @@
+block:
+  - name: Print some message
+    debug: msg="Hello world!"
+  - name: Force a failure
+    fail:
+      msg: "Just failing task"
+    register: failed_task_result
+rescue:
+  - name: Handle failed tasks
+    debug:
+      var: failed_task_result
+...
+

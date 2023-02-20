@@ -1,0 +1,15 @@
+- hosts: 127.0.0.1
+  gather_facts: no
+  vars:
+    manager: &manager_anchor Ali
+    employee_dict:
+      Ali:
+        role: developer
+        manager: *manager_anchor
+      Vali:
+        role: QA
+        manager: *manager_anchor
+  tasks:
+    - debug:
+        msg: "{{ employee_dict }}" 
+

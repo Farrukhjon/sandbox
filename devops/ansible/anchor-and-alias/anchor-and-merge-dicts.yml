@@ -1,0 +1,20 @@
+- hosts: 127.0.0.1
+  gather_facts: no
+  vars:
+    other_persons: &other_persons_anchor
+      Sami:
+        role: accountant
+        manager: Gani
+    manager: &manager_anchor Qudbi
+    employee_dict:
+      Ali:
+        role: developer
+        manager: *manager_anchor
+      Vali:
+        role: QA
+        manager: *manager_anchor
+      <<: *other_persons_anchor #merging other_persons defined above. Details: https://yaml.org/type/merge.html 
+  tasks:
+    - debug:
+        msg: "{{ employee_dict }}" 
+

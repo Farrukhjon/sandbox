@@ -1,0 +1,21 @@
+---
+- hosts: 127.0.0.1
+  gather_facts: no
+  connection: local
+  tasks:
+    - name: Error handling with Block and Rescue
+      block:
+        - name: Print some message
+          debug: msg="Hello world!"
+        - name: Force a failure
+          fail:
+            msg: "Just failing task"
+          when: yes_fail is defined
+      rescue:
+      - name: Handle failed tasks
+        debug:
+          msg: "Cauth failed task"
+    - name: Print some message 2
+      debug: msg="This task has ran after a rescuing a failed task"
+...
+

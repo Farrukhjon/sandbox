@@ -1,0 +1,16 @@
+- hosts: 127.0.0.1
+  gather_facts: no
+  vars:
+    apps:
+      app1:
+        jvm: &jvm_opts_anchor
+          opts: '-Xms1G -Xmx2G'
+          port: 1000
+          path: /usr/lib/app1
+      app2:
+        jvm:
+          <<: *jvm_opts_anchor
+          path: /usr/lib/app2
+  tasks:
+    - debug:
+        msg: "{{ apps }}"

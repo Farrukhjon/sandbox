@@ -1,0 +1,10 @@
+- hosts: 127.0.0.1
+  connection: local
+  gather_facts: no
+  tasks:
+    - debug:
+       msg: "Hello"
+    - wait_for:
+       timeout: 10
+    - debug:
+       msg: "world!"

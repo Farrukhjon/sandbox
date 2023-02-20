@@ -1,0 +1,10 @@
+- name: Copy File Playbook  
+  hosts: 127.0.0.1
+  connection: local
+  gather_facts: no
+  tasks:
+   - name: Copy file {{ file_name }} from {{ source }} to {{ dest }}
+     shell:
+       cp -Rv {{ source }} {{ dest }}
+     args:
+       executable: /bin/bash

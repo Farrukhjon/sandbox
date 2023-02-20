@@ -1,0 +1,12 @@
+- hosts: 127.0.0.1
+  connection: local
+  gather_facts: no
+  vars:
+    #ext_bool_var: "{{ ext_var | default(false) }}"
+    ext_bool_var: "{{ ext_var | default(false) | bool }}"
+  tasks:
+  - debug:
+      msg: "ext_bool_var value = {{ ext_bool_var }}, ext_bool_var type = {{ ext_bool_var | type_debug }}"
+
+
+

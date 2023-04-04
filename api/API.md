@@ -11,7 +11,7 @@
 An API
   - stands for Application Programming Interface
   - is `a way for two or more computer programs` to `communicate` with each other
-  - is `a contract` that define how applications, services, and components `communicate`
+  - is `a contract` that defines how applications, services, and components `communicate`
   - offers a `service` to other `pieces` of software
   - simplifies programming by `abstracting the underlying implementation`
 
@@ -37,11 +37,11 @@ An API
 #### Types of popular adopted Web APIs
  - **SOAP**
  - **REST**
- - **RPC**
+- **GraphQL**
+- **RPC**
    - **gRPC**
- - **GraphQL**
 
-### Compatibility - Backward - Compatible API
+### Compatibility (Backward Compatible API)
 Backwards - compatible API
  - when a client written against one version of an API will continue to work the same way against future versions of the API
  - API change satisfies two constraints:

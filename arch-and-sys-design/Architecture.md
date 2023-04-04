@@ -94,7 +94,7 @@ Application Architecture and Design
     - Abstraction/Data Structure
         - Stream of Data
     - Tools and Frameworks
-    - Reactor (Project Reactor)
+        - Reactor (Project Reactor)
         - Spring WebFlux
         - RxJava (ReactiveX)
         - Akka & Akka Streams

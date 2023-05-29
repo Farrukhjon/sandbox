@@ -1,5 +1,12 @@
 # Algorithms on Graph
 
+## Class of Algorithms
+
+- Traversal Algorithms
+- Reachability and Connectivity Algorithms
+- Pathfinding Algorithms
+- Topological Sorting Algorithms
+
 ## Traversal Algorithms of Graph
 
 - Depth First Search (DFS)
@@ -29,7 +36,15 @@
 
 ## Reachability and Finding Connected Components Of Graph
 
-## Shortest Paths Algorithms
+## Pathfinding Algorithms
+
+- Shortest Path
+- Single Source Shortest Path
+- All Pairs Shortest Path
+- Minimum Spanning Tree
+- Random Walk
+
+### Shortest Paths Algorithms
 
 - Dijkstra's Algorithm
 - Shortest Paths In DAGs

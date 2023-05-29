@@ -2,6 +2,7 @@
 
 ## Literature and Resources
 
+- [Handbook of Graph Theory, 2nd Edition, by Jonathan L. Gross](https://learning.oreilly.com/library/view/handbook-of-graph/9781439880197/)
 - [Graph Algorithms, by A. Hodler](https://learning.oreilly.com/library/view/graph-algorithms/9781492047674/)
 - [Algorithms, Fourth Edition, by Robert Sedgewick, Kevin Wayne](https://learning.oreilly.com/library/view/algorithms-fourth-edition/9780132762564/)
 - [The Algorithms Design Manual, 2/e, by Steven S. Skiena]()
@@ -51,6 +52,17 @@
 - Cyclic and Acyclic Graphs
 - Minimum Spanning Trees
 - Shortest Paths
+
+### Structures of Graphs
+
+- Simple Graph
+    - Only node pairs with one relationship
+- Multi-graph
+    - Multiple node pairs relationship
+- Pseudo-graph
+    - Multiple node pairs relationship with loop back on nodes
+
+### Connected vs Disconnected Graphs
 
 ## Fundamental Representations (Data Structures) of Graphs in Memory
 

@@ -9,8 +9,13 @@
 
 ## Incidence Edges
 
-        If a node is an endpoint of an edge, then the node is said to be incident on the edge, and the edge is incident on teh node.
-        The nodes incident to an edge are called its endpoints.
+If there are `two nodes connected by an edge`, so it's called:
+
+- the edge is `incident` to the both nodes
+- the nodes are `adjacent` to each others
+
+       If a node is an endpoint of an edge, then the node is said to be incident on the edge, and the edge is incident on teh node.
+       The nodes incident to an edge are called its endpoints.
 
 ## Adjacency
 

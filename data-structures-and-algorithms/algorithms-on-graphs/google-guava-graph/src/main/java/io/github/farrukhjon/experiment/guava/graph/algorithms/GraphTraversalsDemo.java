@@ -1,4 +1,4 @@
-package io.github.farrukhjon.experiment.guava.graph;
+package io.github.farrukhjon.experiment.guava.graph.algorithms;
 
 import com.google.common.graph.GraphBuilder;
 import com.google.common.graph.ImmutableGraph;

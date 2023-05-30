@@ -15,7 +15,11 @@
 
 ## What is Graph?
 
-    A graph is a set of Vertices and a collection of Edges that each connect a Pair of vertices.
+A graph is composed of
+
+- a _set of Vertices (Nodes)_ and
+- a _collection of Edges_
+  that each connect a _Pair of vertices_.
 
 ## Common Applications of Graph Structure and Algorithms
 

@@ -81,3 +81,22 @@ Builder classes that construct graphs with user-defined properties:
 - `SuccessorsFunction` interface
     - is a functional interface
     - is used as the type of parameter to graph algorithms (e.g.: BST)
+
+## Terminologies used in the library
+
+example:
+
+    graph.addEdge(nodeU, nodeV, edgeUV);
+
+- Directed `graph`
+    - `nodeU` is a **predecessor** of `nodeV`
+    - `nodeV` is a **successor** of `nodeU`
+    - `edgeUV` is an **outgoing** edge (or out-edge) of `nodeU`
+    - `edgeUV` is an **incoming** edge (or in-edge) of `nodeV`
+    - `nodeU` is a **source** of `edgeUV`
+    - `nodeV` is a **target** of `edgeUV`
+- Undirected `graph`
+    - `nodeU` is a **predecessor and a successor** of `nodeV`
+    - `nodeV` is a **predecessor and a successor** of `nodeU`
+    - `edgeUV` is both an **incoming and an outgoing** edge of `nodeU`
+    - `edgeUV` is both an **incoming and an outgoing** edge of `nodeV`

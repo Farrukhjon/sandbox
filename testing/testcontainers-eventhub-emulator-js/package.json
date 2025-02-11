@@ -1,0 +1,19 @@
+{
+  "name": "testcontainers-eventhub-emulator",
+  "version": "1.0.0",
+  "description": "TDD with the Testcontainers and Azure EventHubs Emulator",
+  "main": "index.js",
+  "scripts": {
+    "test": "jest --coverage --runInBand --detectOpenHandles"
+  },
+  "author": "Farrukhjon Sattorov (farrukhjon.sattorov@gmail.com)",
+  "license": "ISC",
+  "devDependencies": {
+    "@azure/event-hubs": "^5.12.2",
+    "@jest/globals": "^29.7.0",
+    "dotenv": "^16.4.7",
+    "jest": "^29.7.0",
+    "testcontainers": "^10.18.0",
+    "uuid": "^11.0.5"
+  }
+}

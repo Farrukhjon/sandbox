@@ -1,0 +1,21 @@
+apiVersion: apps/v1
+metadata:
+  name: zookeeper
+  labels:
+    app: zookeeper
+spec:
+  replicas: 1
+  selector:
+    matchlabels:
+      app: zookeeper
+  template:
+    metadata:
+      labels:
+        app: zookeeper
+    spec:
+      containers:
+        - name: zookeeper
+          image: zookeeper:latest
+          imagePullPolicy: IfNotPresent
+          ports:
+            - containerPort: 

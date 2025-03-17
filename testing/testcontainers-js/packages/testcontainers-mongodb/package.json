@@ -1,0 +1,10 @@
+{
+  "name": "testcontainers-mongodb",
+  "version": "0.0.1",
+  "private": true,
+  "type": "commonjs",
+  "main": "./src/index.js",
+  "devDependencies": {
+    "mongodb": "^6.13.1"
+  }
+}

@@ -1,0 +1,35 @@
+<project>
+
+	<modelVersion>4.0.0</modelVersion>
+	<name>Testcontainers SQL Server</name>
+	<groupId>io.github.farrukhjon.experiment.testcontainers</groupId>
+	<artifactId>testcontainers-java-sqlserver</artifactId>
+	<version>1.0.0</version>
+
+	<dependencyManagement>
+		<dependencies>
+			<dependency>
+				<groupId>org.testcontainers</groupId>
+				<artifactId>testcontainers-bom</artifactId>
+				<version>1.19.8</version>
+				<type>pom</type>
+				<scope>import</scope>
+			</dependency>
+		</dependencies>
+	</dependencyManagement>
+
+	<dependencies>
+		<dependency>
+			<groupId>org.testcontainers</groupId>
+			<artifactId>mssqlserver</artifactId>
+			<scope>test</scope>
+		</dependency>
+		<dependency>
+			<groupId>org.testcontainers</groupId>
+			<artifactId>junit-jupiter</artifactId>
+			<scope>test</scope>
+		</dependency>
+	</dependencies>
+
+
+</project>

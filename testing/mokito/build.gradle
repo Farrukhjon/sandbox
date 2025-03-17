@@ -1,0 +1,17 @@
+apply plugin: 'java'
+apply plugin: 'idea'
+apply plugin: 'eclipse'
+
+repositories {
+    jcenter()
+}
+
+ext {
+    junitVersion = '4.12'
+    mokitoVersion = '2.+'
+}
+
+dependencies {
+    testCompile "junit:junit:${junitVersion}",
+                "org.mockito:mockito-core:${mokitoVersion}"
+}

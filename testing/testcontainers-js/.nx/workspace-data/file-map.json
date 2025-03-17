@@ -1,0 +1,119 @@
+{
+  "version": "6.0",
+  "nxVersion": "20.4.2",
+  "pathMappings": {
+    "testcontainers-sqlserver": [
+      "packages/testcontainers-sqlserver/src/index.ts"
+    ]
+  },
+  "nxJsonPlugins": [
+    {
+      "name": "@nx/eslint/plugin",
+      "options": {
+        "targetName": "lint"
+      }
+    },
+    {
+      "name": "@nx/jest/plugin",
+      "options": {
+        "targetName": "test"
+      }
+    }
+  ],
+  "fileMap": {
+    "nonProjectFiles": [
+      {
+        "file": "eslint.config.mjs",
+        "hash": "3462096019013144053"
+      },
+      {
+        "file": "package.json",
+        "hash": "2233307574939537428"
+      },
+      {
+        "file": "tsconfig.base.json",
+        "hash": "1129374835943528013"
+      },
+      {
+        "file": ".idea/checkstyle-idea.xml",
+        "hash": "10847470365792729537"
+      },
+      {
+        "file": "package-lock.json",
+        "hash": "10288876656216555974"
+      },
+      {
+        "file": ".idea/misc.xml",
+        "hash": "14090318790931476084"
+      },
+      {
+        "file": ".nvmrc",
+        "hash": "9919419852524302570"
+      },
+      {
+        "file": "packages/testcontainers-sqlserver/src/index.py",
+        "hash": "3244421341483603138"
+      },
+      {
+        "file": "nx.json",
+        "hash": "9347516693597107344"
+      },
+      {
+        "file": ".idea/compiler.xml",
+        "hash": "6643275310914665520"
+      },
+      {
+        "file": ".prettierignore",
+        "hash": "14688272390704683536"
+      },
+      {
+        "file": ".prettierrc",
+        "hash": "16267754514737964994"
+      },
+      {
+        "file": "packages/testcontainers-sqlserver/package.json",
+        "hash": "8725721800657908877"
+      },
+      {
+        "file": ".idea/vcs.xml",
+        "hash": "13310645357652710998"
+      },
+      {
+        "file": "jest.config.ts",
+        "hash": "3494843969422251966"
+      },
+      {
+        "file": ".gitignore",
+        "hash": "16046009434543599915"
+      },
+      {
+        "file": ".idea/inspectionProfiles/Project_Default.xml",
+        "hash": "3868066396726399805"
+      },
+      {
+        "file": "jest.preset.js",
+        "hash": "9430166341120122740"
+      },
+      {
+        "file": ".idea/.gitignore",
+        "hash": "10286036308014790964"
+      }
+    ],
+    "projectFileMap": {
+      "testcontainers-eventhub-emulator": [
+        {
+          "file": "packages/testcontainers-eventhub-emulator/package.json",
+          "hash": "15996984771084564089",
+          "deps": [
+            "npm:testcontainers",
+            "npm:uuid"
+          ]
+        },
+        {
+          "file": "packages/testcontainers-eventhub-emulator/src/index.js",
+          "hash": "2554657062129127304"
+        }
+      ]
+    }
+  }
+}

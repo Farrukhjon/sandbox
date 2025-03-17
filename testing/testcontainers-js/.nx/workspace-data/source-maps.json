@@ -1,0 +1,180 @@
+{
+  "packages/testcontainers-eventhub-emulator": {
+    "root": [
+      "packages/testcontainers-eventhub-emulator/package.json",
+      "nx/core/package-json"
+    ],
+    "sourceRoot": [
+      "packages/testcontainers-eventhub-emulator/package.json",
+      "nx/core/package-json"
+    ],
+    "name": [
+      "packages/testcontainers-eventhub-emulator/package.json",
+      "nx/core/package-json"
+    ],
+    "tags": [
+      "packages/testcontainers-eventhub-emulator/package.json",
+      "nx/core/package-json"
+    ],
+    "tags.npm:private": [
+      "packages/testcontainers-eventhub-emulator/package.json",
+      "nx/core/package-json"
+    ],
+    "metadata.targetGroups": [
+      "packages/testcontainers-eventhub-emulator/package.json",
+      "nx/core/package-json"
+    ],
+    "metadata.targetGroups.NPM Scripts": [
+      "packages/testcontainers-eventhub-emulator/package.json",
+      "nx/core/package-json"
+    ],
+    "metadata.targetGroups.NPM Scripts.0": [
+      "packages/testcontainers-eventhub-emulator/package.json",
+      "nx/core/package-json"
+    ],
+    "metadata.description": [
+      "packages/testcontainers-eventhub-emulator/package.json",
+      "nx/core/package-json"
+    ],
+    "metadata.js": [
+      "packages/testcontainers-eventhub-emulator/package.json",
+      "nx/core/package-json"
+    ],
+    "metadata.js.packageName": [
+      "packages/testcontainers-eventhub-emulator/package.json",
+      "nx/core/package-json"
+    ],
+    "metadata.js.packageMain": [
+      "packages/testcontainers-eventhub-emulator/package.json",
+      "nx/core/package-json"
+    ],
+    "metadata.js.isInPackageManagerWorkspaces": [
+      "packages/testcontainers-eventhub-emulator/package.json",
+      "nx/core/package-json"
+    ],
+    "targets": [
+      "packages/testcontainers-eventhub-emulator/package.json",
+      "nx/core/package-json"
+    ],
+    "targets.test": [
+      "packages/testcontainers-eventhub-emulator/package.json",
+      "nx/core/package-json"
+    ],
+    "targets.test.executor": [
+      "packages/testcontainers-eventhub-emulator/package.json",
+      "nx/core/package-json"
+    ],
+    "targets.test.options": [
+      "packages/testcontainers-eventhub-emulator/package.json",
+      "nx/core/package-json"
+    ],
+    "targets.test.metadata": [
+      "packages/testcontainers-eventhub-emulator/package.json",
+      "nx/core/package-json"
+    ],
+    "targets.test.options.script": [
+      "packages/testcontainers-eventhub-emulator/package.json",
+      "nx/core/package-json"
+    ],
+    "targets.test.metadata.scriptContent": [
+      "packages/testcontainers-eventhub-emulator/package.json",
+      "nx/core/package-json"
+    ],
+    "targets.test.metadata.runCommand": [
+      "packages/testcontainers-eventhub-emulator/package.json",
+      "nx/core/package-json"
+    ]
+  },
+  "packages/testcontainers-mongodb": {
+    "root": [
+      "packages/testcontainers-mongodb/package.json",
+      "nx/core/package-json"
+    ],
+    "sourceRoot": [
+      "packages/testcontainers-mongodb/package.json",
+      "nx/core/package-json"
+    ],
+    "name": [
+      "packages/testcontainers-mongodb/package.json",
+      "nx/core/package-json"
+    ],
+    "tags": [
+      "packages/testcontainers-mongodb/package.json",
+      "nx/core/package-json"
+    ],
+    "tags.npm:private": [
+      "packages/testcontainers-mongodb/package.json",
+      "nx/core/package-json"
+    ],
+    "metadata.targetGroups": [
+      "packages/testcontainers-mongodb/package.json",
+      "nx/core/package-json"
+    ],
+    "metadata.js": [
+      "packages/testcontainers-mongodb/package.json",
+      "nx/core/package-json"
+    ],
+    "metadata.js.packageName": [
+      "packages/testcontainers-mongodb/package.json",
+      "nx/core/package-json"
+    ],
+    "metadata.js.packageMain": [
+      "packages/testcontainers-mongodb/package.json",
+      "nx/core/package-json"
+    ],
+    "metadata.js.isInPackageManagerWorkspaces": [
+      "packages/testcontainers-mongodb/package.json",
+      "nx/core/package-json"
+    ],
+    "targets": [
+      "packages/testcontainers-mongodb/package.json",
+      "nx/core/package-json"
+    ]
+  },
+  "packages/testcontainers-sqlserver": {
+    "root": [
+      "packages/testcontainers-sqlserver/package.json",
+      "nx/core/package-json"
+    ],
+    "sourceRoot": [
+      "packages/testcontainers-sqlserver/package.json",
+      "nx/core/package-json"
+    ],
+    "name": [
+      "packages/testcontainers-sqlserver/package.json",
+      "nx/core/package-json"
+    ],
+    "tags": [
+      "packages/testcontainers-sqlserver/package.json",
+      "nx/core/package-json"
+    ],
+    "tags.npm:private": [
+      "packages/testcontainers-sqlserver/package.json",
+      "nx/core/package-json"
+    ],
+    "metadata.targetGroups": [
+      "packages/testcontainers-sqlserver/package.json",
+      "nx/core/package-json"
+    ],
+    "metadata.js": [
+      "packages/testcontainers-sqlserver/package.json",
+      "nx/core/package-json"
+    ],
+    "metadata.js.packageName": [
+      "packages/testcontainers-sqlserver/package.json",
+      "nx/core/package-json"
+    ],
+    "metadata.js.packageMain": [
+      "packages/testcontainers-sqlserver/package.json",
+      "nx/core/package-json"
+    ],
+    "metadata.js.isInPackageManagerWorkspaces": [
+      "packages/testcontainers-sqlserver/package.json",
+      "nx/core/package-json"
+    ],
+    "targets": [
+      "packages/testcontainers-sqlserver/package.json",
+      "nx/core/package-json"
+    ]
+  }
+}

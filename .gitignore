@@ -6,3 +6,5 @@ target/*
 **/*.idea/*
 **/target/
 **/*.iml
+
+**/node_modules/

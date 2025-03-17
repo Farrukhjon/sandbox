@@ -1,0 +1,26 @@
+[tool.poetry]
+name = "pl-python"
+version = "0.1.0"
+description = "Python sandbox"
+authors = ["Farrukhjon Sattorov <farrukhjon_sattorov@epam.com>"]
+readme = "README.md"
+package-mode = false
+
+[tool.poetry.dependencies]
+python = "^3.13"
+requests = "^2.32.3"
+deflate = "^0.7.0"
+
+[tool.poetry.group.dev.dependencies]
+mypy = "^1.13.0"
+pytest = "^8.3.3"
+pytest-asyncio = "^0.24.0"
+testcontainers = "^4.8.2"
+
+[tool.pytest.ini_options]
+asyncio_mode = "auto"
+asyncio_default_fixture_loop_scope = "module"
+
+[build-system]
+requires = ["poetry-core"]
+build-backend = "poetry.core.masonry.api"

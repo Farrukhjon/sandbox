@@ -1,0 +1,51 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project xmlns="http://maven.apache.org/POM/4.0.0" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+         xsi:schemaLocation="http://maven.apache.org/POM/4.0.0 http://maven.apache.org/xsd/maven-4.0.0.xsd">
+    <modelVersion>4.0.0</modelVersion>
+
+    <parent>
+        <groupId>io.github.farrukhjon.experiment.java</groupId>
+        <artifactId>pl-java</artifactId>
+        <version>1.0-SNAPSHOT</version>
+    </parent>
+    <groupId>io.github.farrukhjon.experiment.concurrency</groupId>
+    <artifactId>concurrency</artifactId>
+    <version>1.0-SNAPSHOT</version>
+    <packaging>pom</packaging>
+    <name>Concurrency</name>
+
+    <dependencies>
+        <dependency>
+            <groupId>org.projectlombok</groupId>
+            <artifactId>lombok</artifactId>
+        </dependency>
+        <dependency>
+            <groupId>org.junit.jupiter</groupId>
+            <artifactId>junit-jupiter</artifactId>
+        </dependency>
+        <dependency>
+            <groupId>org.spockframework</groupId>
+            <artifactId>spock-core</artifactId>
+        </dependency>
+        <dependency>
+            <groupId>ch.qos.logback</groupId>
+            <artifactId>logback-classic</artifactId>
+        </dependency>
+    </dependencies>
+
+    <modules>
+        <module>atomic</module>
+        <module>completable-future</module>
+        <module>concurrent-collections</module>
+        <module>flow</module>
+        <module>fork-join</module>
+        <module>immutability</module>
+        <module>locks</module>
+        <module>producer-consumer</module>
+        <module>synchronization</module>
+        <module>thread-core</module>
+        <module>thread-local</module>
+        <module>thread-pool</module>
+    </modules>
+
+</project>

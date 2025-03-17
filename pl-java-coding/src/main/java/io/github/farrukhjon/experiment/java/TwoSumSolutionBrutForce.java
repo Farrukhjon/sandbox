@@ -1,0 +1,18 @@
+package io.github.farrukhjon.experiment.java;
+
+public class TwoSumSolutionBrutForce implements TwoSum {
+    public int[] twoSum(int[] nums, int target) {
+        int[] result = new int[2];
+        for (int i = 0; i < nums.length; i++) {
+            int x = nums[i];
+            for (int j = i + 1; j < nums.length; j++) {
+                int y = nums[j];
+                if (x + y == target) {
+                    result[0] = i;
+                    result[1] = j;
+                }
+            }
+        }
+        return result;
+    }
+}

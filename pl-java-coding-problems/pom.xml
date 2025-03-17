@@ -1,0 +1,32 @@
+<project xmlns="http://maven.apache.org/POM/4.0.0">
+    <modelVersion>4.0.0</modelVersion>
+
+    <groupId>io.github.farrukhjon.experiment.java</groupId>
+    <artifactId>pl-java-coding-problems</artifactId>
+    <version>1.0</version>
+    <packaging>pom</packaging>
+
+    <properties>
+        <project.build.sourceEncoding>UTF-8</project.build.sourceEncoding>
+        <maven.compiler.source>17</maven.compiler.source>
+        <maven.compiler.target>17</maven.compiler.target>
+    </properties>
+
+    <modules>
+        <module>arrays-collections-and-data-structures</module>
+        <module>concurrency-thread-pools</module>
+        <module>concurrency-advanced</module>
+        <module>date-and-time</module>
+        <module>fp-advanced</module>
+        <module>fp-basic</module>
+        <module>http-client</module>
+        <module>objects-immutability-and-switch</module>
+        <module>io-files-and-paths</module>
+        <module>null-safe-and-optional</module>
+        <module>strings-numbers-and-math</module>
+        <module>reflection</module>
+        <module>type-inference-and-var</module>
+    </modules>
+
+
+</project>

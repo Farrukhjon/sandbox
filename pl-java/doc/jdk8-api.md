@@ -1,0 +1,105 @@
+# The Java Library - JDK (1.8)
+
+- Core
+    - java.lang
+    - java.io
+- Non-blocking IO
+    - java.nio
+- Mathematics
+    - java.math
+- Network programming
+    - java.net
+    - javax.net
+- Date/Time manipulation
+    - java.time
+- Collections/Algorithms
+    - java.util.collection
+- Concurrent programming
+    - java.util.concurrent
+- Functional programming
+    - java.util.function
+- Functional Data Processing
+    - java.util.stream
+- Database programming
+    - java.sql
+    - javax.sql
+- Regular expressions
+    - java.util.regex
+- XML to Object/Object to XML transformation
+    - high-level
+        - javax.xml
+    - low-level
+        - org.w3c.dom
+        - org.xml.sax
+
+Core
+
+- java.lang
+    - Interfaces
+    - Classes
+        - Object - the root of the class hierarchy
+            - equality
+            - hashCode
+            - string representation
+            - thread monitor
+                - wait/notify
+            - get class (runtime type) of the object
+        - Wrapper (Object) Types
+            - Boolean
+            - Short
+            - Integer
+            - Long
+            - Character
+            - Double
+            - Float
+            - Void
+        - Strings
+    - Exceptions
+        - Error
+        - OutOfMemoryError
+        - Throwable
+        - Exception
+        - UnsupportedOperationException
+    - Threads
+        - Thread
+        - ThreadLocal
+        - Runnable
+    - Runtime
+        - System
+        - Runtime
+        - Process
+        - ProcessBuilder
+    - Annotations
+        - @Iterable
+        - @Override
+        - @AutoClosable
+        - @CharSequence
+        - @SuppressWarning
+        - @Deprecated
+- java.io
+    - Interfaces
+        - Closable
+        - Serializable
+    - Classes
+        - Byte-streams
+            - InputStream
+                - FileInputStream
+                - BufferedInputStream
+            - OutputStream
+                - FileOutputStream
+                - BufferedOutputStream
+        - Character-streams
+            - Writer
+                - FileWriter
+                - BufferedWriter
+            - Reader
+                - FileReader
+                - BufferedReader
+        - Stream-to-Character
+            - InputStreamReader
+            - OutputStreamWriter
+        - File
+    - Exceptions
+        - FileNotFoundException
+    - Errors
+        - IOError

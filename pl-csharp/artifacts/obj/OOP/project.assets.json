@@ -1,0 +1,91 @@
+{
+  "version": 3,
+  "targets": {
+    "net8.0": {}
+  },
+  "libraries": {},
+  "projectFileDependencyGroups": {
+    "net8.0": []
+  },
+  "packageFolders": {
+    "/Users/Farrukhjon_Sattorov/.nuget/packages/": {}
+  },
+  "project": {
+    "version": "1.0.0",
+    "restore": {
+      "projectUniqueName": "/Users/Farrukhjon_Sattorov/Projects/sandbox/pl-csharp/OOP/OOP.csproj",
+      "projectName": "OOP",
+      "projectPath": "/Users/Farrukhjon_Sattorov/Projects/sandbox/pl-csharp/OOP/OOP.csproj",
+      "packagesPath": "/Users/Farrukhjon_Sattorov/.nuget/packages/",
+      "outputPath": "/Users/Farrukhjon_Sattorov/Projects/sandbox/pl-csharp/artifacts/obj/OOP/",
+      "projectStyle": "PackageReference",
+      "centralPackageVersionsManagementEnabled": true,
+      "configFilePaths": [
+        "/Users/Farrukhjon_Sattorov/.nuget/NuGet/NuGet.Config"
+      ],
+      "originalTargetFrameworks": [
+        "net8.0"
+      ],
+      "sources": {
+        "https://api.nuget.org/v3/index.json": {}
+      },
+      "frameworks": {
+        "net8.0": {
+          "targetAlias": "net8.0",
+          "projectReferences": {}
+        }
+      },
+      "warningProperties": {
+        "warnAsError": [
+          "NU1605"
+        ]
+      },
+      "restoreAuditProperties": {
+        "enableAudit": "true",
+        "auditLevel": "low",
+        "auditMode": "direct"
+      }
+    },
+    "frameworks": {
+      "net8.0": {
+        "targetAlias": "net8.0",
+        "centralPackageVersions": {
+          "coverlet.collector": "6.0.2",
+          "Microsoft.Data.SqlClient": "5.2.2",
+          "Microsoft.Extensions.Logging": "8.0.0",
+          "Microsoft.Extensions.Logging.Console": "8.0.0",
+          "Microsoft.NET.Test.Sdk": "17.11.0",
+          "NATS.Client.Serializers.Json": "2.3.3",
+          "NATS.Net": "2.3.3",
+          "Newtonsoft.Json": "13.0.3",
+          "System.Interactive.Async": "6.0.1",
+          "Testcontainers": "3.10.0",
+          "Testcontainers.MsSql": "3.10.0",
+          "xunit": "2.9.0",
+          "xunit.abstractions": "2.0.3",
+          "xunit.analyzers": "1.15.0",
+          "xunit.assert": "2.9.0",
+          "xunit.runner.console": "2.9.0",
+          "xunit.runner.visualstudio": "2.8.2"
+        },
+        "imports": [
+          "net461",
+          "net462",
+          "net47",
+          "net471",
+          "net472",
+          "net48",
+          "net481"
+        ],
+        "assetTargetFallback": true,
+        "warn": true,
+        "frameworkReferences": {
+          "Microsoft.NETCore.App": {
+            "privateAssets": "all"
+          }
+        },
+        "runtimeIdentifierGraphPath": "/usr/local/share/dotnet/sdk/8.0.401/PortableRuntimeIdentifierGraph.json"
+      }
+    }
+  }
+}

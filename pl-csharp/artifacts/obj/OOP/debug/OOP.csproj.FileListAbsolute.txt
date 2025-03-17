@@ -1,0 +1,15 @@
+/Users/Farrukhjon_Sattorov/Projects/sandbox/pl-csharp/artifacts/bin/OOP/debug/OOP
+/Users/Farrukhjon_Sattorov/Projects/sandbox/pl-csharp/artifacts/bin/OOP/debug/OOP.deps.json
+/Users/Farrukhjon_Sattorov/Projects/sandbox/pl-csharp/artifacts/bin/OOP/debug/OOP.runtimeconfig.json
+/Users/Farrukhjon_Sattorov/Projects/sandbox/pl-csharp/artifacts/bin/OOP/debug/OOP.dll
+/Users/Farrukhjon_Sattorov/Projects/sandbox/pl-csharp/artifacts/bin/OOP/debug/OOP.pdb
+/Users/Farrukhjon_Sattorov/Projects/sandbox/pl-csharp/artifacts/obj/OOP/debug/OOP.GeneratedMSBuildEditorConfig.editorconfig
+/Users/Farrukhjon_Sattorov/Projects/sandbox/pl-csharp/artifacts/obj/OOP/debug/OOP.AssemblyInfoInputs.cache
+/Users/Farrukhjon_Sattorov/Projects/sandbox/pl-csharp/artifacts/obj/OOP/debug/OOP.AssemblyInfo.cs
+/Users/Farrukhjon_Sattorov/Projects/sandbox/pl-csharp/artifacts/obj/OOP/debug/OOP.csproj.CoreCompileInputs.cache
+/Users/Farrukhjon_Sattorov/Projects/sandbox/pl-csharp/artifacts/obj/OOP/debug/OOP.sourcelink.json
+/Users/Farrukhjon_Sattorov/Projects/sandbox/pl-csharp/artifacts/obj/OOP/debug/OOP.dll
+/Users/Farrukhjon_Sattorov/Projects/sandbox/pl-csharp/artifacts/obj/OOP/debug/refint/OOP.dll
+/Users/Farrukhjon_Sattorov/Projects/sandbox/pl-csharp/artifacts/obj/OOP/debug/OOP.pdb
+/Users/Farrukhjon_Sattorov/Projects/sandbox/pl-csharp/artifacts/obj/OOP/debug/OOP.genruntimeconfig.cache
+/Users/Farrukhjon_Sattorov/Projects/sandbox/pl-csharp/artifacts/obj/OOP/debug/ref/OOP.dll

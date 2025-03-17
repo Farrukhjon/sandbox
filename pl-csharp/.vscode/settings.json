@@ -1,0 +1,9 @@
+{
+    "cSpell.words": [
+        "msbuild",
+        "Testcontainers",
+        "Xunit"
+    ],
+    "java.project.explorer.showNonJavaResources": false,
+    "java.dependency.syncWithFolderExplorer": false
+}

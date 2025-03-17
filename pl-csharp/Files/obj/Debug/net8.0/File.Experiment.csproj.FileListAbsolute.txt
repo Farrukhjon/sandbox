@@ -1,0 +1,15 @@
+/Users/Farrukhjon_Sattorov/Projects/sandbox/pl-csharp/File.Experiment/bin/Debug/net8.0/File.Experiment
+/Users/Farrukhjon_Sattorov/Projects/sandbox/pl-csharp/File.Experiment/bin/Debug/net8.0/File.Experiment.deps.json
+/Users/Farrukhjon_Sattorov/Projects/sandbox/pl-csharp/File.Experiment/bin/Debug/net8.0/File.Experiment.runtimeconfig.json
+/Users/Farrukhjon_Sattorov/Projects/sandbox/pl-csharp/File.Experiment/bin/Debug/net8.0/File.Experiment.dll
+/Users/Farrukhjon_Sattorov/Projects/sandbox/pl-csharp/File.Experiment/bin/Debug/net8.0/File.Experiment.pdb
+/Users/Farrukhjon_Sattorov/Projects/sandbox/pl-csharp/File.Experiment/obj/Debug/net8.0/File.Experiment.GeneratedMSBuildEditorConfig.editorconfig
+/Users/Farrukhjon_Sattorov/Projects/sandbox/pl-csharp/File.Experiment/obj/Debug/net8.0/File.Experiment.AssemblyInfoInputs.cache
+/Users/Farrukhjon_Sattorov/Projects/sandbox/pl-csharp/File.Experiment/obj/Debug/net8.0/File.Experiment.AssemblyInfo.cs
+/Users/Farrukhjon_Sattorov/Projects/sandbox/pl-csharp/File.Experiment/obj/Debug/net8.0/File.Experiment.csproj.CoreCompileInputs.cache
+/Users/Farrukhjon_Sattorov/Projects/sandbox/pl-csharp/File.Experiment/obj/Debug/net8.0/File.Experiment.sourcelink.json
+/Users/Farrukhjon_Sattorov/Projects/sandbox/pl-csharp/File.Experiment/obj/Debug/net8.0/File.Experiment.dll
+/Users/Farrukhjon_Sattorov/Projects/sandbox/pl-csharp/File.Experiment/obj/Debug/net8.0/refint/File.Experiment.dll
+/Users/Farrukhjon_Sattorov/Projects/sandbox/pl-csharp/File.Experiment/obj/Debug/net8.0/File.Experiment.pdb
+/Users/Farrukhjon_Sattorov/Projects/sandbox/pl-csharp/File.Experiment/obj/Debug/net8.0/File.Experiment.genruntimeconfig.cache
+/Users/Farrukhjon_Sattorov/Projects/sandbox/pl-csharp/File.Experiment/obj/Debug/net8.0/ref/File.Experiment.dll

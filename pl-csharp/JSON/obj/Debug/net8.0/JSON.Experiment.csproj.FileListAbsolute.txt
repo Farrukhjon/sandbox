@@ -1,0 +1,15 @@
+/Users/Farrukhjon_Sattorov/Projects/sandbox/pl-csharp/JSON.Experiment/bin/Debug/net8.0/JSON.Experiment
+/Users/Farrukhjon_Sattorov/Projects/sandbox/pl-csharp/JSON.Experiment/bin/Debug/net8.0/JSON.Experiment.deps.json
+/Users/Farrukhjon_Sattorov/Projects/sandbox/pl-csharp/JSON.Experiment/bin/Debug/net8.0/JSON.Experiment.runtimeconfig.json
+/Users/Farrukhjon_Sattorov/Projects/sandbox/pl-csharp/JSON.Experiment/bin/Debug/net8.0/JSON.Experiment.dll
+/Users/Farrukhjon_Sattorov/Projects/sandbox/pl-csharp/JSON.Experiment/bin/Debug/net8.0/JSON.Experiment.pdb
+/Users/Farrukhjon_Sattorov/Projects/sandbox/pl-csharp/JSON.Experiment/obj/Debug/net8.0/JSON.Experiment.GeneratedMSBuildEditorConfig.editorconfig
+/Users/Farrukhjon_Sattorov/Projects/sandbox/pl-csharp/JSON.Experiment/obj/Debug/net8.0/JSON.Experiment.AssemblyInfoInputs.cache
+/Users/Farrukhjon_Sattorov/Projects/sandbox/pl-csharp/JSON.Experiment/obj/Debug/net8.0/JSON.Experiment.AssemblyInfo.cs
+/Users/Farrukhjon_Sattorov/Projects/sandbox/pl-csharp/JSON.Experiment/obj/Debug/net8.0/JSON.Experiment.csproj.CoreCompileInputs.cache
+/Users/Farrukhjon_Sattorov/Projects/sandbox/pl-csharp/JSON.Experiment/obj/Debug/net8.0/JSON.Experiment.sourcelink.json
+/Users/Farrukhjon_Sattorov/Projects/sandbox/pl-csharp/JSON.Experiment/obj/Debug/net8.0/JSON.Experiment.dll
+/Users/Farrukhjon_Sattorov/Projects/sandbox/pl-csharp/JSON.Experiment/obj/Debug/net8.0/refint/JSON.Experiment.dll
+/Users/Farrukhjon_Sattorov/Projects/sandbox/pl-csharp/JSON.Experiment/obj/Debug/net8.0/JSON.Experiment.pdb
+/Users/Farrukhjon_Sattorov/Projects/sandbox/pl-csharp/JSON.Experiment/obj/Debug/net8.0/JSON.Experiment.genruntimeconfig.cache
+/Users/Farrukhjon_Sattorov/Projects/sandbox/pl-csharp/JSON.Experiment/obj/Debug/net8.0/ref/JSON.Experiment.dll

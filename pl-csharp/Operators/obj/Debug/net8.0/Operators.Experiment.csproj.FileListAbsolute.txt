@@ -1,0 +1,15 @@
+/Users/Farrukhjon_Sattorov/Projects/sandbox/pl-csharp/Operators.Experiment/bin/Debug/net8.0/Operators.Experiment
+/Users/Farrukhjon_Sattorov/Projects/sandbox/pl-csharp/Operators.Experiment/bin/Debug/net8.0/Operators.Experiment.deps.json
+/Users/Farrukhjon_Sattorov/Projects/sandbox/pl-csharp/Operators.Experiment/bin/Debug/net8.0/Operators.Experiment.runtimeconfig.json
+/Users/Farrukhjon_Sattorov/Projects/sandbox/pl-csharp/Operators.Experiment/bin/Debug/net8.0/Operators.Experiment.dll
+/Users/Farrukhjon_Sattorov/Projects/sandbox/pl-csharp/Operators.Experiment/bin/Debug/net8.0/Operators.Experiment.pdb
+/Users/Farrukhjon_Sattorov/Projects/sandbox/pl-csharp/Operators.Experiment/obj/Debug/net8.0/Operators.Experiment.GeneratedMSBuildEditorConfig.editorconfig
+/Users/Farrukhjon_Sattorov/Projects/sandbox/pl-csharp/Operators.Experiment/obj/Debug/net8.0/Operators.Experiment.AssemblyInfoInputs.cache
+/Users/Farrukhjon_Sattorov/Projects/sandbox/pl-csharp/Operators.Experiment/obj/Debug/net8.0/Operators.Experiment.AssemblyInfo.cs
+/Users/Farrukhjon_Sattorov/Projects/sandbox/pl-csharp/Operators.Experiment/obj/Debug/net8.0/Operators.Experiment.csproj.CoreCompileInputs.cache
+/Users/Farrukhjon_Sattorov/Projects/sandbox/pl-csharp/Operators.Experiment/obj/Debug/net8.0/Operators.Experiment.sourcelink.json
+/Users/Farrukhjon_Sattorov/Projects/sandbox/pl-csharp/Operators.Experiment/obj/Debug/net8.0/Operators.Experiment.dll
+/Users/Farrukhjon_Sattorov/Projects/sandbox/pl-csharp/Operators.Experiment/obj/Debug/net8.0/refint/Operators.Experiment.dll
+/Users/Farrukhjon_Sattorov/Projects/sandbox/pl-csharp/Operators.Experiment/obj/Debug/net8.0/Operators.Experiment.pdb
+/Users/Farrukhjon_Sattorov/Projects/sandbox/pl-csharp/Operators.Experiment/obj/Debug/net8.0/Operators.Experiment.genruntimeconfig.cache
+/Users/Farrukhjon_Sattorov/Projects/sandbox/pl-csharp/Operators.Experiment/obj/Debug/net8.0/ref/Operators.Experiment.dll

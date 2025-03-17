@@ -1,0 +1,87 @@
+# Outline Topics Of Software Engineering
+
+## Literature and Resources
+
+- [Outline of Software Engineering, wikipedia]()
+- [Essentials of Software Engineering, 4/e, by Tsui]()
+- [Beginning Software Engineering, by Rod Stephens]()
+
+## Topics
+
+- Fundamentals
+    - Mathematical Foundations of CS
+        - Discrete Mathematics
+    - Bits and Bytes
+    - Analysis of Algorithms
+    - Design of Algorithm - Paradigms and Techniques
+    - Data Structures and Algorithms
+    - Competitive Programming and Problem-Solving
+- Programming Languages and Compilers
+    - Compilers
+    - Theory and Foundations
+    - Type Inference
+    - Java
+    - Data types
+    - Operators
+    - Block and Statements
+    - Expressions
+    - Control flow statements
+    - Classes and Interfaces
+    - Packages and Namespace
+    - Collections
+    - Generics
+    - Exceptions
+    - Input/Output
+    - Concurrency
+    - Execution
+    - JDBC
+    - Modules
+    - Lambda
+    - Streams
+    - Python
+- Database Systems
+    - RDBMS and SQL
+    - MySQL
+    - Oracle DB
+    - NoSQL
+    - Document oriented DB - MongoDB
+    - Graph oriented DB - Neo4J
+    - Column oriented - Cassandra
+- Programming Paradigms
+    - Object-Oriented Programming (OOP)
+    - Core principles
+    - Functional Programming and Lambda Calculus
+        - Immutability
+        - Functions composition
+- Recursion
+- OOP
+    - Abstraction
+    - Inheritance
+    - Encapsulation
+    - Polymorphism
+- Design Patterns
+    - Application Level patterns
+    - Creational
+    - Behavioral
+    - Structural
+    - Concurrency Design Patterns
+- Coding Engineering and Effective Programming
+    - Clean coding
+    - Refactoring
+- Enterprise Applications
+    - Enterprise Application Architectures
+    - Layered architecture
+    - Service-oriented architecture
+    - Event-Driven architecture
+    - Enterprise Application Integrations
+    - Enterprise Data Warehouse
+- Computer Systems
+- Operating Systems
+    - Unix
+    - Linux
+    - Windows
+- Network Systems
+- Cloud Computing and Cloud Providers
+    - Azure
+    - AWS
+- Cloud-Native Applications

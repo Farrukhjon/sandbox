@@ -1,0 +1,45 @@
+﻿Literature and Resources. Foundations of CS
+
+- Mathematical Foundations of Computer Science
+   - Concrete Mathematics. A Foundation for Computer Science, 2/e, by D. Knuth
+   - Discrete Mathematics and Its Applications, by K. Rosen
+   - Mathematics for Computer Science, by E. Lehman. MIT. Google
+   - Elementary Number Theory and Its\_Application,  by K. H. Rosen
+   - Linear Algebra and Its Applications, by David C. Lay, Steven R. Lay, Judi J. 
+   - Introduction to Probability, by Charles M. Grinstead, J. Laurie Snell
+   - How to Solve It: A New Aspect of Mathematical Method, by G. Polya
+- Design of Algorithms. Paradigms, Strategies and Techniques
+   - The Algorithms Design Manual, by Steven Skiena
+   - Introduction to Algorithms, 3/e, by Thomas H. Cormen and others
+   - Algorithm Design, by J. Kleinberg and E. Tardos
+   - Algorithms, by S. Dasgupta, C. Papadimitriou, U. Vazirani
+   - [Selected Papers on Design of Algorithms](https://www-cs-faculty.stanford.edu/~knuth/da.html), by Donald E. Knuth
+- Analysis of Algorithms
+   - An introduction to the Analysis of Algorithms, by R. Sedgewick
+   - [Design and analysis of Algorithms, 2nd Ed](https://www.safaribooksonline.com/library/view/design-and-analysis/9789332524606/), bt H. B. Dave
+- Data Structures and Algorithms
+   - Algorithms 4/e, by R. Sedgewick and K. Wayne
+   - Grokking Algorithms: An illustrated guide for programmers and other curious people, by Bhargava A. Y
+   - Data Structures and Algorithms in Java 6/e, by Michael T. Goodrich, Roberto Tamassia, Michael H. 
+   - Data Structures and Algorithm Analysis in Java, 3/e, by M. Weiss
+   - Data Structures and Algorithms Made Easy: Data Structures and Algorithmic Puzzles, 5/e, by Narasimha Karumanchi
+   - [Dictionary of Algorithms and Data Structures](https://xlinux.nist.gov/dads/)
+   - [Essential Algorithms: ](https://learning.oreilly.com/library/view/essential-algorithms-a/9781118612101/)[A Practical Approach to Computer Algorithms](https://learning.oreilly.com/library/view/essential-algorithms-a/9781118612101/)[, ](https://learning.oreilly.com/library/view/essential-algorithms-a/9781118612101/)[by R. Stephens](https://learning.oreilly.com/library/view/essential-algorithms-a/9781118612101/)
+- Competitive Programming and Problem Solving
+   - Programming Challenges. The Programming Contest Training Manual, by S. Skiena
+   - Competitive Programmer’s Handbook, by Antti Laaksonen
+   - Competitive Programming, by S. Halim
+   - The Hitchhiker’s Guide to The Programming Contests
+   - Think Like a Programmer, by V. Anton Spraul
+   - Problem-Solving. The Missing Ingredient for New Programmers, by V. Anton Spraul
+- Job Interview QA
+   - Cracking the Coding Interview. 189 Programming Questions and Solutions, by Gayle L. McDowell
+   - Java Programming Interviews Exposed, by N. Markham
+   - Programming Interviews Exposed. Secrets to Landing Your Next Job, 3/e, by J. Mongan and others
+- Sites
+   - [Algorithm - Wikipedia](https://en.wikipedia.org/wiki/Algorithm)
+   - [GeeksForGeeks](https://www.geeksforgeeks.org/)
+   - [CodeForces](https://codeforces.com/)
+      - [An awesome list for competitive programming!](https://codeforces.com/blog/entry/23054)
+   - [LeetCode](https://leetcode.com/)
+      - [Problem Set All](https://leetcode.com/problemset/all/)

@@ -1,6 +1,5 @@
 const {MongoClient} = require('mongodb');
 const {MongoMemoryReplSet} = require('mongodb-memory-server');
-const User = require('../src/models/user');
 
 jest.setTimeout(10000); // increase timeout for async ops
 
@@ -27,7 +26,7 @@ describe('MongoDB Change Stream with mongodb-memory-server', () => {
         if (mongod) await mongod.stop();
     });
 
-    test('should detect insert event via change stream in a collection', async () => {
+    test('should detect insert event via change stream in a db', async () => {
         const changes = [];
 
         const changeStream = usersCollection.watch([], {fullDocument: 'updateLookup'});
@@ -56,7 +55,7 @@ describe('MongoDB Change Stream with mongodb-memory-server', () => {
         await changeStream.close();
     });
 
-    test('should detect insert on any collection in the db', async () => {
+    test('should detect insert on any db in the db', async () => {
         const changes = [];
 
         const dbChangeStream = db.watch([], {fullDocument: 'updateLookup'});
@@ -68,11 +67,11 @@ describe('MongoDB Change Stream with mongodb-memory-server', () => {
         // Allow listener to attach
         await new Promise((resolve) => setTimeout(resolve, 100));
 
-        // Insert into "users" collection
+        // Insert into "users" db
         const users = db.collection('users');
         await users.insertOne({name: 'Alice', email: 'alice@example.com'});
 
-        // Insert into "orders" collection
+        // Insert into "orders" db
         const orders = db.collection('orders');
         await orders.insertOne({orderId: 123, item: 'Book'});
 
@@ -172,7 +171,7 @@ describe('MongoDB Change Stream with mongodb-memory-server', () => {
         // Wait for all change events to be collected
         await changeReader;
 
-        // Assertions 🧠
+        // Assertions
         expect(changes.length).toBe(4);
 
         const insertEvent = changes.find(c => c.operationType === 'insert');
@@ -293,6 +292,4 @@ describe('MongoDB Change Stream with mongodb-memory-server', () => {
 
         await changeStream.close();
     });
-
-
 });
